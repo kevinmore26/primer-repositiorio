@@ -80,4 +80,4 @@ print(persona['nombre'])
 # para crear más
 persona['edad']=35
 print(persona)
-print(persona[hobbies[0]])
+print(persona['hobbies'[0]])
