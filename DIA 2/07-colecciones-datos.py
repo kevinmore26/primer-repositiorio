@@ -75,9 +75,31 @@ persona={
 
 }
 # PARA RECORRER
+
 print(persona["edad"])
 print(persona['nombre'])
 # para crear más
 persona['edad']=35
 print(persona)
 print(persona['hobbies'[0]])
+
+# para extraer solamente las llaves
+print(persona.keys())
+# forma de extraer solamente los valores 
+print(persona.values())
+
+persona.clear()
+print(persona)
+
+# conjuntos 
+# colección de datos desordenada, que una vez que la creemos podremos acceder a us posiciones que ya estarán ordenadas aleatoriamente
+
+alumnos={'kevin','khaterine','ricardo','aylin'}
+print(alumnos)
+alumnos.add('Diego')
+print(alumnos)
+alumnos.remove('Eduardo')
+print(alumnos)
+
+# generalmente se usa para guardar valores in la necesidad de llaves
+print('matematicas' in cursos)
