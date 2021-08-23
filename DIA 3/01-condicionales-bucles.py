@@ -112,3 +112,17 @@ for numerosadivinar in range(20):
     if numerosadivinar>10 or numerosadivinar>10:
         continue
     print(numero)
+
+
+print("===================")
+numero_adivinar=10
+
+while True:
+    numero=int(input("Ingresa un nùmero bro: "))
+    if numero < numero_adivinar:
+        print("el numero es mayor que {}".format(numero))
+    elif numero>numero_adivinar:
+        print("el número es menor que {}".format(numero))
+    elif numero ==numero_adivinar:
+        print("felicidades adivinaste el número")
+        break
